@@ -10,12 +10,10 @@
 
   
 
-Organisations are adopting Cloud first to deliver the applications to the users which gives better employee experience especially working form home. But also poses unique security risks to the organisation, it becomes impossible for the organisation to enforce AD policies, profiling and posturing of the devices unless employee connects on VPN.
+Organisations are adopting Cloud first to deliver the applications to the users which gives better employee experience especially those who are working from home. But this also poses unique security risks to the organisations, it becomes impossible for the organisation to enforce AD policies, profiling and posturing of the devices unless employee connects on VPN. Present situation is
 
-  
 
-- Most of the times employees will connect to customer networks then organisation VPN.
-
+- Most of the times employees will connect to customer networks instead of organisation’s VPN.
   
 
 - But the security posture remains organisation responsibility.
@@ -74,7 +72,7 @@ Projects has three execution points.
 | ----------- | ----------- |
 *posturingAA.py* :| This is the first script to execute. All the end points in a group will be segregated into Two groups.|
 *IsolateEP.py* | This will Isolate the endpoints in the newly created child group.|
-StopIsolation.py | This is to unblock an endpoint. Will be executed by user. As the script will be using the files created while posturing, should be executed from server only. As an example create a webpage and call this python script on click of a button. If user faces any issue,  share the unblock code provide in islationdata.txt |
+StopIsolation.py | This is to unblock an endpoint. Will be executed by user. But should be from server only. As the script will be using the files created while posturing. As an example create a webpage and call this python script on click of a button. User has to enter the 'hostname'. If use can not share the unblock code provide in islationdata.txt |
 
 
   
