@@ -145,7 +145,7 @@ Clone the repo
 
   
 
-git clone https://github.com/CiscoSE/posturingAA.py.git
+git clone https://github.com/CiscoSE/posturingAA.git
 
   
 
@@ -185,7 +185,7 @@ python3 -m venv venv
 
   
 
-Start the virtual environment and install requirements.txt from the <posturingAA>
+Start the virtual environment and install requirements_dev.txt from the <posturingAA>
 
   
 
@@ -197,12 +197,26 @@ source venv/bin/activate
 
   
 
-pip install -r requirements.txt
+pip install -r requirements_dev.txt
 
   
 
 ```
 
+
+cd into directory
+
+  
+
+```sh
+
+  
+
+cd posturingAA
+
+  
+
+```
   
 
 Execute the script as any other Python script form console. Developed using AMP API V1 and Orbital API V0 versions.
