@@ -217,9 +217,12 @@ cd posturingAA
   
 
 ```
-  
 
-Execute the script as any other Python script form console. Developed using AMP API V1 and Orbital API V0 versions.
+- Edit the Credentials.py file and populate AMP and Orbital API keys.
+
+- Execute the script as any other Python script form console. 
+
+- Developed using AMP API V1 and Orbital API V0 versions.
 
   
 
